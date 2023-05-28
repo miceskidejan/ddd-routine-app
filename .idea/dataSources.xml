@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="routine@localhost" uuid="c3aa7946-3d95-451c-8eb0-a99b79cca5cb">
+    <data-source source="LOCAL" name="postgres@localhost" uuid="e92a9bef-06bc-4a7a-ba04-4268c12e14ef">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/routine</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="activity@localhost" uuid="3e0c38d6-557e-458f-903c-5f6708736ef5">
+    <data-source source="LOCAL" name="po_activities@localhost" uuid="a7dbb69f-ec1d-4a69-9060-3d59fabd5135">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/activity</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/po_activities</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="po_routines@localhost" uuid="2b807d8c-4b3e-497a-b572-4532fdd7acfe">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/po_routines</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

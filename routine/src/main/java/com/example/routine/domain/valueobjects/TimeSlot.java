@@ -1,5 +1,6 @@
 package com.example.routine.domain.valueobjects;
 
+import com.example.sharedkernel.domain.base.ValueObject;
 import jakarta.persistence.Embeddable;
 import lombok.Getter;
 
@@ -8,7 +9,7 @@ import java.time.LocalTime;
 
 @Embeddable
 @Getter
-public class TimeSlot {
+public class TimeSlot implements ValueObject {
     private final LocalTime startTime;
     private final LocalTime endTime;
 
